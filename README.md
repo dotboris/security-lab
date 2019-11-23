@@ -28,7 +28,9 @@ Second, download the content of this repo. You can either:
   git clone https://github.com/dotboris/security-lab.git
   ```
 
-- Download the source code [archive](https://github.com/dotboris/security-lab/archive/master.zip) and Extract it.
+- Download the source code
+  [archive](https://github.com/dotboris/security-lab/archive/master.zip) and
+  Extract it.
 
 ## Usage
 
