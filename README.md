@@ -20,9 +20,35 @@ First, make sure that you have the prerequisites.
   develop this project with and I find that the community that provides vagrant
   boxes usually supports VirtualBox.
 
-Second, download the content of this repo. You can either clone it with `git` or
-download the source code archive through Github.
+Second, download the content of this repo. You can either:
+
+- Clone it with `git`:
+
+  ```sh
+  git clone https://github.com/dotboris/security-lab.git
+  ```
+
+- Download the source code [archive](https://github.com/dotboris/security-lab/archive/master.zip) and Extract it.
 
 ## Usage
 
-TODO: how do I use this?
+1.  Open a terminal in the directory where you cloned / downloaded this project
+1.  Start the VMs you want to play with:
+
+    ```sh
+    vagrant up {vm_names...}
+    ```
+
+    You can see the different available [VMs](#vms) the [VMs](#vms) section
+    below.
+
+1.  Find the target VM ips
+
+    TODO: How do we do this?
+
+1.  Start hacking
+
+    If you don't have tools prepared already, this repo lets you start up a Kali
+    Linux VM. (TODO: document Kali VM)
+
+## VMs
