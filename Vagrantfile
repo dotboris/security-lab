@@ -2,10 +2,16 @@
 # vi: set ft=ruby :
 
 Vagrant.configure('2') do |config|
-  config.vm.netowrk 'private_network', type: 'dhcp'
+  config.vm.network 'private_network', type: 'dhcp'
 
   config.vm.define 'metasploitable:ubuntu' do |config|
     config.vm.box = 'rapid7/metasploitable3-ub1404'
+
+    # Machine doesn't come with insecure SSH keys, connect with password
+    config.ssh.password = 'vagrant'
+
+    # No guest additions so no shared folders. It's kind-of cheating anyways
+    config.vm.synced_folder '.', '/vagrant', disabled: true
   end
 
   config.vm.define 'metasploitable:windows' do |config|
