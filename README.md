@@ -55,9 +55,10 @@ Second, download the content of this repo. You can either:
 
 ### Metasploitable Linux
 
-https://github.com/rapid7/metasploitable3
+This is a purposefully vulnerable Linux VM built by Rapid7.
 
-This is a purposefully vulnerable Linux VM that is built by Rapid7.
+- Website: https://github.com/rapid7/metasploitable3
+- Vagrant Box: https://app.vagrantup.com/rapid7/boxes/metasploitable3-ub1404
 
 #### Start
 
@@ -72,3 +73,22 @@ vagrant ssh
 ```
 
 Note that the username and password is `vagrant:vagrant`.
+
+### Metasploitable Windows
+
+This is a purposefully vulnerable Windows 2008 VM built by Rapid7.
+
+- Website: https://github.com/rapid7/metasploitable3
+- Vagrant Box: https://app.vagrantup.com/rapid7/boxes/metasploitable3-win2k8
+
+⚠️ This image is pretty big. It will take a while to download.
+
+#### Start
+
+```sh
+vagrant up metasploitable:windows
+```
+
+#### Login / Connect
+
+TODO: How to do this?
