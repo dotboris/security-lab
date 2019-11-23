@@ -52,3 +52,23 @@ Second, download the content of this repo. You can either:
     Linux VM. (TODO: document Kali VM)
 
 ## VMs
+
+### Metasploitable Linux
+
+https://github.com/rapid7/metasploitable3
+
+This is a purposefully vulnerable Linux VM that is built by Rapid7.
+
+#### Start
+
+```sh
+vagrant up metasploitable:ubuntu
+```
+
+#### Login / Connect
+
+```sh
+vagrant ssh
+```
+
+Note that the username and password is `vagrant:vagrant`.
