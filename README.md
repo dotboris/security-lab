@@ -41,7 +41,7 @@ Second, download the content of this repo. You can either:
     vagrant up {vm_names...}
     ```
 
-    You can see the different available [VMs](#vms) the [VMs](#vms) section
+    You can see the different available [VMs](#vms) in the [VMs](#vms) section
     below.
 
 1.  Find the target VM ips
